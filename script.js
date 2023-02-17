@@ -289,7 +289,7 @@ async function weatherapi(e) {
     let out22 = await prom2;
     view.innerText = `Weather: ${out22.weather[0].description}
      Max Temperature: ${out22.main.temp_max} 
-     Min Temperature: ${out22.main.min}
+     Min Temperature: ${out22.main.temp_min}
      Humidity: ${out22.main.humidity}
      Sunrise: ${out22.sys.sunrise}
      Sunset: ${out22.sys.sunset}`;
